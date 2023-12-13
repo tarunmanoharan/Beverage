@@ -9,7 +9,7 @@ function Card() {
           <ul className="list">
             <li className="item">
               <input type="radio" id="first" name="basic_carousel" value="first" checked="checked" />
-              <label className="label_one" htmlFor="first"><b>Gallery</b></label>
+              <label className="label_one" htmlFor="first"><b>ShowCase</b></label>
               <div className="content content_one">
                 <span className="picto"></span>
                 <p>fourth</p>
