@@ -6,7 +6,7 @@ const Register=()=>
     return(
     <section class="container">
     <form action="#" class="form">
-    <label>Registration Form</label>
+    <label><center><h2>Registration Form</h2></center></label>
       <div class="input-box">
         <label>Full Name</label>
         <input type="text" placeholder="Enter full name" required />
@@ -43,29 +43,9 @@ const Register=()=>
             <label for="check-other">prefer not to say</label>
           </div>
         </div>
+         <button>Submit</button>
       </div>
-      <div class="input-box address">
-        <label>Address</label>
-        <input type="text" placeholder="Enter street address" required />
-        <input type="text" placeholder="Enter street address line 2" required />
-        <div class="column">
-          <div class="select-box">
-            <select>
-              <option hidden>Country</option>
-              <option>America</option>
-              <option>Japan</option>
-              <option>India</option>
-              <option>Nepal</option>
-            </select>
-          </div>
-          <input type="text" placeholder="Enter your city" required />
-        </div>
-        <div class="column">
-          <input type="text" placeholder="Enter your region" required />
-          <input type="number" placeholder="Enter postal code" required />
-        </div>
-      </div>
-      <button>Submit</button>
+   
     </form>
   </section>
     )

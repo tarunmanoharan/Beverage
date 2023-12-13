@@ -1,14 +1,22 @@
   
   .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    
   }
   
   .login-form {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    
+
   }
   
   .login-form h2 {
@@ -35,7 +43,7 @@
   button {
     padding: 10px 15px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color:black;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -43,6 +51,6 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color:rgb(48, 1, 1);
   }
   
