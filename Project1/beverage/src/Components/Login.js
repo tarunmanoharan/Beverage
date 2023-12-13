@@ -1,4 +1,4 @@
-import '../Assets/Css/login.css';
+import '../assets/css/login.css'
 const Log=()=>
 {
   return(
