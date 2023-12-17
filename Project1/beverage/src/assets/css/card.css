@@ -3,7 +3,7 @@ body {
     user-select: none;
   }
   
-  .container {
+  .cardcontainer {
     position: absolute;
     height: 600px;
     width: 600px;

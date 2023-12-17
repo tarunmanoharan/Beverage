@@ -17,7 +17,7 @@ function Card() {
             <input type="radio" id="first" name="basic_carousel" value="first" checked />
             <label className="label_one" htmlFor="first"><b>ShowCase</b></label>
             <div className="content content_one">
-              <div className="container">
+              <div className="cardcontainer">
                 <div className="card" style={{ opacity: '0.8' }}>
                   <h3 className="title">Tea</h3>
                   <img src={Img1}/>

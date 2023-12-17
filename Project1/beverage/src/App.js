@@ -3,7 +3,7 @@ import Card from "./Components/Card";
 import Footer from "./Components/footer";
 import Nav from "./Components/Nav";
 import Login from "./Components/Login";
-import Register from "./Components/Register";
+import Register from "./Components/Sign_up";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
