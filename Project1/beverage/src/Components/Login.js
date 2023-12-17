@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/login.css';
-import Register from './Sign_up';
+import Sign_up from './Sign_up';
 
 const Login = () => {
   const handleSubmit = (e) => {
@@ -40,7 +40,7 @@ const Login = () => {
 
           <div className="links">
             <p>
-              Don't have an account <a href="/Register">Sign Up</a>
+              Don't have an account <a href="Sign_up">Sign Up</a>
             </p>
           </div>
         </div>

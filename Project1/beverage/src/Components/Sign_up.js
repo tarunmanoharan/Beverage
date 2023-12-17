@@ -1,6 +1,6 @@
 import '../assets/css/sign_up.css';
 
-const Register = () => {
+const Sign_up = () => {
   return (
     <div id="app">
       <div className="form-wrapper">
@@ -50,4 +50,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Sign_up;

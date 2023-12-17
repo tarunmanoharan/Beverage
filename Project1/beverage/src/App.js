@@ -1,9 +1,7 @@
 import Home from "./Components/Home";
-import Card from "./Components/Card";
-import Footer from "./Components/footer";
 import Nav from "./Components/Nav";
 import Login from "./Components/Login";
-import Register from "./Components/Sign_up";
+import Sign_up from "./Components/Sign_up";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/Sign_up" element={<Sign_up />} />
         </Routes>
 
       </Router>
