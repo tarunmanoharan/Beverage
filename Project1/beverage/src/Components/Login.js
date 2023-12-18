@@ -1,11 +1,11 @@
 import React from 'react';
 import '../assets/css/login.css';
 import Sign_up from './Sign_up';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // perform login logic here
   };
 
   return (
@@ -40,7 +40,7 @@ const Login = () => {
 
           <div className="links">
             <p>
-              Don't have an account <a href="Sign_up">Sign Up</a>
+              Don't have an account <Link to="/Sign_up">Sign Up</Link>
             </p>
           </div>
         </div>
