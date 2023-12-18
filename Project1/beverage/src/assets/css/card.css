@@ -14,8 +14,8 @@ body {
   
   .card {
     display: flex;
-    height: 250px;
-    width: 200px;
+    height: 50%;
+    width:  40%;
     background-color: #525252;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #000;
@@ -93,9 +93,9 @@ body {
   #scene {
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 90%;
-    height: 40%;
+    justify-content: center;
+    width: 95%;
+    height: 55%;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -113,9 +113,9 @@ body {
     height: 75%;
     flex-grow: 0;
     display: flex;
-    width: 30%;
+    width: 18%;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
   }
   .list {
     display: flex;
@@ -247,4 +247,5 @@ body {
     background: rgb(32, 32, 32);
     height: 100%;
     flex-grow: 3;
+    width: auto;
   }

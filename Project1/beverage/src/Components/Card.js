@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import Img1 from  '../assets/images/Tea.jpg'
 import Img2 from  '../assets/images/coffee.jpg'
@@ -18,23 +16,23 @@ function Card() {
             <label className="label_one" htmlFor="first"><b>ShowCase</b></label>
             <div className="content content_one">
               <div className="cardcontainer">
-                <div className="card" style={{ opacity: '0.8' }}>
+                <div className="card" style={{ opacity: '0.9' }}>
                   <h3 className="title">Tea</h3>
                   <img src={Img1}/>
                 </div>
-                <div className="card" style={{opacity: '0.8' }}>
+                <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Coffee</h3>
                   <img src={Img2}/>
                 </div>
-                <div className="card" style={{opacity: '0.8' }}>
+                <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Soft Drinks</h3>
                   <img src={Img3}/>
                 </div>
-                <div className="card" style={{opacity: '0.8' }}>
+                <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Wine</h3>
                   <img src={Img4}/>
                 </div>
-                <div className="card" style={{opacity: '0.8' }}>
+                <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Whisky</h3>
                   <img src={Img5}/>
                 </div>
