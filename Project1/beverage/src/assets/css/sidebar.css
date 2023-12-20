@@ -1,9 +1,12 @@
+
 .sidebar {
     background-color: black;
     height: 10vh;
     display: flex;
     justify-content: start;
     align-items: center;
+    
+  
 }
 
 .menu-bars {
@@ -13,11 +16,12 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    
   }
   
   .nav-menu {
     background-color: black;
-    width: 250px;
+    width: 190px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -25,6 +29,7 @@
     top: 0;
     left: -100%;
     transition: 850ms;
+    
     
   }
   
@@ -61,6 +66,8 @@
   
   .nav-menu-items {
     width: 100%;
+  
+
   }
   
   .navbar-toggle {

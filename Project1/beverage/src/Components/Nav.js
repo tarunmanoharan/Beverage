@@ -11,10 +11,10 @@ function Nav() {
     <nav className="header-area">
 
       <ul className="nav-links">
-      <SideBar/>
+        <SideBar/>
         <li className="center">
           <Link to="/">
-            <b>Drops</b>
+            <b>SmoothGulp</b>
           </Link>
         </li>
         <li className="search-bar">
