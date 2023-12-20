@@ -1,4 +1,7 @@
 import '../assets/css/sign_up.css';
+import { Link } from 'react-router-dom';
+
+
 
 const Sign_up = () => {
   return (
@@ -6,7 +9,7 @@ const Sign_up = () => {
       <div className="form-wrapper">
         <section className="container">
           <form action="#" className="form">
-            <label><center><h2>Registration Form</h2></center></label>
+            <label><center><h2 className='register'>Registration Form</h2></center></label>
             <div className="input-box">
               <label>Full Name</label>
               <input type="text" placeholder="Enter full name" required />
@@ -44,6 +47,11 @@ const Sign_up = () => {
               <button>Submit</button>
             </div>
           </form>
+          <div className='login-link'>
+            <p>
+              Already an User ? <Link to="/login">Login</Link>
+            </p>
+          </div>
         </section>
       </div>
     </div>

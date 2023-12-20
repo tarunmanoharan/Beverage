@@ -1,9 +1,10 @@
 import React from 'react';
-import Img1 from  '../assets/images/Tea.jpg'
-import Img2 from  '../assets/images/coffee.jpg'
-import Img3 from  '../assets/images/softdrinks.jpg'
-import Img4 from  '../assets/images/wine.jpg'
-import Img5 from  '../assets/images/whisky.jpg'
+import { Link } from 'react-router-dom';
+import Img1 from '../assets/images/Tea.jpg';
+import Img2 from '../assets/images/coffee.jpg';
+import Img3 from '../assets/images/softdrinks.jpg';
+import Img4 from '../assets/images/wine.jpg';
+import Img5 from '../assets/images/whisky.jpg';
 import '../assets/css/card.css';
 
 function Card() {
@@ -47,5 +48,5 @@ function Card() {
   );
 }
 
-export default Card;
 
+export default Card;

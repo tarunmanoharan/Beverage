@@ -1,5 +1,5 @@
 body {
-    background-color: #f1f1f1;
+    margin: 0;
     user-select: none;
   }
   
@@ -22,6 +22,7 @@ body {
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
+    
   }
   
   .card:not(:first-child) {
@@ -107,6 +108,7 @@ body {
     background: #f1f1f1;
     box-shadow:  20px 20px 50px #9d9d9d,
     -20px -20px 50px #ffffff;
+    /* z-index: -1; */
   }
   
   #left-zone {
@@ -116,6 +118,7 @@ body {
     width: 18%;
     align-items: center;
     justify-content: center;
+
   }
   .list {
     display: flex;

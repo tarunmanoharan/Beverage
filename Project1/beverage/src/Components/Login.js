@@ -12,7 +12,7 @@ const Login = () => {
     <>
       <div className="logincontainer">
         <div className="login-item">
-          <div className="logo">Sign in</div>
+          <div className="logo">Sign In</div>
 
           <form action="" method="post" className="form form-login" onSubmit={handleSubmit}>
             <div className="form-field">
@@ -40,7 +40,7 @@ const Login = () => {
 
           <div className="links">
             <p>
-              Don't have an account <Link to="/Sign_up">Sign Up</Link>
+              Don't have an account ? <Link to="/Sign_up">Sign Up</Link>
             </p>
           </div>
         </div>

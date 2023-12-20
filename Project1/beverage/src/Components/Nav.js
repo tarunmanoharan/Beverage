@@ -1,30 +1,44 @@
-import React, { useState } from "react";
+import React from "react";
+import SideBar from "./sidebar";
 import { Link } from "react-router-dom";
-import loginlogo from "../assets/logo/login.svg";
+import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import "../assets/css/nav.css";
 
 function Nav() {
   return (
     <nav className="header-area">
-      <ul className="nav-links">
 
+      <ul className="nav-links">
+      <SideBar/>
         <li className="center">
           <Link to="/">
-            <b>Bevarage</b>
+            <b>Drops</b>
           </Link>
         </li>
-
         <li className="search-bar">
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Search..."
-          />
+          <div className="search-input-container">
+            <input
+              type="text"
+              className="search-input"
+              placeholder={`   ${String.fromCodePoint(0x1F50D)} Search`}
+            />
+          </div>
         </li>
-
+        <li className="logo">
+          <Link to="">
+          <FavoriteBorderIcon/>
+          </Link>
+        </li>
+        <li className="logo">
+          <Link to="">
+          <ShoppingCartOutlinedIcon/>
+          </Link>
+        </li>
         <li className="logo">
           <Link to="/login">
-            <img src={loginlogo} alt="Logo" style={{ width: '40px', height: '40px' }} />
+            <AccountCircleSharpIcon />
           </Link>
         </li>
       </ul>

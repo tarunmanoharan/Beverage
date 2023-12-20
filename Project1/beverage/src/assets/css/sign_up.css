@@ -1,7 +1,7 @@
 #app {
   display: flex;
   flex-direction: column;
-  min-height: 90vh;
+  min-height: 89vh;
 }
 
 .form-wrapper {
@@ -9,6 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(220, 220, 220);
+  
 }
 
 .container {
@@ -18,10 +20,14 @@
   text-align: center;
   justify-content: center;
   width: 90%;
-  background: #f7f3f0; /* Light beige background */
+  background: #ADA996;
+  background: -webkit-linear-gradient(to right, #ADA996 30%, #F2F2F2 50%, #DBDBDB 70%, #EAEAEA 100%);
+  background: linear-gradient(to right, #ADA996 8%, #F2F2F2 40%, #DBDBDB 70%, #EAEAEA 100%);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3%;
+  border: 5px double #ada6a6;
 }
 
 .container header {
@@ -33,7 +39,15 @@
 }
 
 .container .form {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+h2.register{
+  font-size: 30px;
+  font-family: cursive;
+  color: black;
+  text-shadow: 0px 0px 25px #73640d;
+  font-weight: 600;
 }
 
 .form .input-box {
@@ -119,6 +133,12 @@
   .form :where(.input-box input, .select-box) {
     height: 50px;
   }
+}
+
+.login-link
+{
+  padding: 10px;
+
 }
 
 
