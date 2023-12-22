@@ -2,7 +2,7 @@
 Made for KINGS and QUEENS
 
 ## HomePage
-![HomePage Image](cc2photos/homepage.jpg)
+![HomePage Image](Project1/cc2photos/homepage.jpg)
 
 ## LoginPage
 ![LoginPage Image](cc2photos/loginpage.jpg)
