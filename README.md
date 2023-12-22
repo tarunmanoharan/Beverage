@@ -2,7 +2,7 @@
 Made for KINGS and QUEENS
 
 ## HomePage
-![HomePage Image](Project1/cc2photos/homepage.jpg)
+![HomePage Image](C:\Users\mtaru\OneDrive\Documents\GitHub\Beverage\Project1\cc2photos\HomePage.png)
 
 ## LoginPage
 ![LoginPage Image](cc2photos/loginpage.jpg)
