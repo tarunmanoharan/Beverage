@@ -32,7 +32,7 @@ function Nav() {
           </Link>
         </li>
         <li className="logo">
-          <Link to="">
+          <Link to="/Cart">
           <ShoppingCartOutlinedIcon/>
           </Link>
         </li>

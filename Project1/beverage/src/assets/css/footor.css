@@ -22,4 +22,17 @@
     font-weight: bold;
     text-shadow: 0 0 10px #ffd700;
   }
+  .social-icons {
+    margin-top: 5px;
+  }
   
+  .social-link {
+    color: brown;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: orangered;
+  }
