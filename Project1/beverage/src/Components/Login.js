@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import '../assets/css/login.css';
-import Sign_up from './Sign_up';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 
@@ -78,7 +77,7 @@ const Login = () => {
             </div>
 
             <div className="form-field">
-              <a href="#">Forgot password?</a>
+              <a>Forgot password?</a>
             </div>
 
             <div className="form-field">

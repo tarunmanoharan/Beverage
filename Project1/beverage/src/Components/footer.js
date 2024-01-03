@@ -18,13 +18,13 @@ const Footer = () => {
 
       <div className="social-icons">
         <span>Connect with us:</span>
-        <a href="#" className="social-link">
+        <a className="social-link">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href="#" className="social-link">
+        <a className="social-link">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="#" className="social-link">
+        <a className="social-link">
           <FontAwesomeIcon icon={faDiscord} />
         </a>
       </div>

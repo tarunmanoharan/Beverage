@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Img1 from '../assets/images/Tea.jpg';
 import Img2 from '../assets/images/coffee.jpg';
 import Img3 from '../assets/images/softdrinks.jpg';
@@ -19,23 +18,23 @@ function Card() {
               <div className="cardcontainer">
                 <div className="card" style={{ opacity: '0.9' }}>
                   <h3 className="title">Tea</h3>
-                  <img src={Img1}/>
+                  <img src={Img1}  alt='img'/>
                 </div>
                 <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Coffee</h3>
-                  <img src={Img2}/>
+                  <img src={Img2} alt='img'/>
                 </div>
                 <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Soft Drinks</h3>
-                  <img src={Img3}/>
+                  <img src={Img3} alt='img'/>
                 </div>
                 <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Wine</h3>
-                  <img src={Img4}/>
+                  <img src={Img4} alt='img'/>
                 </div>
                 <div className="card" style={{opacity: '0.9' }}>
                   <h3 className="title">Whisky</h3>
-                  <img src={Img5}/>
+                  <img src={Img5} alt='img'/>
                 </div>
               </div>
             </div>
