@@ -1,7 +1,7 @@
 import Home from "./Components/Home";
 import Nav from "./Components/Nav";
 import Login from "./Components/Login";
-import Sign_up from "./Components/SignUp";
+import SignUp from "./Components/SignUp";
 import Dashboard from "./Pages/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -17,7 +17,7 @@ function App() {
           
           <Route path="/" element={<Home />}></Route>
           <Route path="/login" element={<Login />} />
-          <Route path="/Sign_up" element={<Sign_up />} />
+          <Route path="/Sign_up" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
 

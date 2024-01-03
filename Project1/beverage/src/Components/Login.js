@@ -77,7 +77,7 @@ const Login = () => {
             </div>
 
             <div className="form-field">
-              <a>Forgot password?</a>
+              <p>Forgot password?</p>
             </div>
 
             <div className="form-field">

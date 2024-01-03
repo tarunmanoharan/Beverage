@@ -18,15 +18,15 @@ const Footer = () => {
 
       <div className="social-icons">
         <span>Connect with us:</span>
-        <a className="social-link">
+        <p className="social-link">
           <FontAwesomeIcon icon={faInstagram} />
-        </a>
-        <a className="social-link">
+        </p>
+        <p className="social-link">
           <FontAwesomeIcon icon={faTwitter} />
-        </a>
-        <a className="social-link">
+        </p>
+        <p className="social-link">
           <FontAwesomeIcon icon={faDiscord} />
-        </a>
+        </p>
       </div>
     </footer>
   );

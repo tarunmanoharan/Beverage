@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const Sign_up = () => {
+const SignUp = () => {
   return (
     <div id="app">
       <div className="form-wrapper">
@@ -58,4 +58,4 @@ const Sign_up = () => {
   );
 };
 
-export default Sign_up;
+export default SignUp;
