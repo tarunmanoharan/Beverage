@@ -33,6 +33,14 @@
     text-decoration: none;
   }
   
-  .social-link:hover {
+  .icons:hover {
     color: orangered;
   }
+
+  .motto{
+    font-size: larger;
+    font-weight: 600;
+    
+  }
+
+ 

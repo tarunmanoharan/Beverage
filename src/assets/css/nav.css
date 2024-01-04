@@ -61,11 +61,11 @@ body {
   width: 0%;
   background: darkgray;
   border-radius: 12px;
-  transition: all 0.4s ease;
+  transition: all 0.9s ease;
 }
 
 .nav-links li a:hover:before {
-  width: 100%;
+  width: 77%;
 }
 
 .nav-links li.center a:before {
