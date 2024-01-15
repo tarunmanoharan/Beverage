@@ -7,16 +7,20 @@
 
 body {
   height: 100vh;
-  background-color: #808080;
+  background: #000000; 
+  background: -webkit-linear-gradient(to right, #434343, #000000);  
+  background: linear-gradient(to right, #434343, #000000);
+  
   align-items: center;
   justify-content: center;
   margin: 0;
 }
 
-.header-area {
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
+.nav-area {
   position: sticky;
   height: 10vh;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   
 }
 
@@ -24,11 +28,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: black;
+  background: rgb(15, 14, 14);
   padding-left: 10px;
   padding-right: 10px;
   align-items: center; 
   font-family: 'Poppins', sans-serif;
+  height: 10vh;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .nav-links .center {
@@ -61,7 +68,7 @@ body {
   width: 0%;
   background: darkgray;
   border-radius: 12px;
-  transition: all 0.9s ease;
+  transition: all 0.7s ease;
 }
 
 .nav-links li a:hover:before {

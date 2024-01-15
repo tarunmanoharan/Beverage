@@ -1,5 +1,4 @@
 import React from "react";
-import SideBar from "./sidebar";
 import { Link } from "react-router-dom";
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -8,10 +7,9 @@ import "../assets/css/nav.css";
 
 function Nav() {
   return (
-    <nav className="header-area">
+    <nav className="nav-area">
 
       <ul className="nav-links">
-        <SideBar/>
         <li className="center">
           <Link to="/">
             <b>SmoothGulp</b>
@@ -32,7 +30,7 @@ function Nav() {
           </Link>
         </li>
         <li className="logo">
-          <Link to="/Cart">
+          <Link to="">
           <ShoppingCartOutlinedIcon/>
           </Link>
         </li>

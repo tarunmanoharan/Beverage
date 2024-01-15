@@ -6,6 +6,10 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
   }
   
   .footer-content {
@@ -15,6 +19,7 @@
   
   .keywords {
     margin-top: 10px;
+    font-size: larger;
   }
   
   .keywords span {
@@ -22,17 +27,7 @@
     font-weight: bold;
     text-shadow: 0 0 10px #ffd700;
   }
-  .social-icons {
-    margin-top: 5px;
-  }
-  
-  .social-link {
-    color: brown;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
-  }
-  
+    
   .icons:hover {
     color: orangered;
   }
@@ -41,6 +36,19 @@
     font-size: larger;
     font-weight: 600;
     
+  }
+
+  .social-link{
+    color: brown;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
   }
 
  
