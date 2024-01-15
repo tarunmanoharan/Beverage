@@ -33,10 +33,28 @@
   }
 
   .motto{
-    font-size: larger;
-    font-weight: 600;
-    
+    font-size: 1.3em;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #d30b0b, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);   
   }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+}
 
   .social-link{
     color: brown;
@@ -50,5 +68,8 @@
     flex-direction: row;
     gap: 1em;
   }
+
+
+  
 
  
